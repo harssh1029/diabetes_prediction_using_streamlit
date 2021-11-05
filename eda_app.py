@@ -17,9 +17,9 @@ def load_data(data):
 
 def run_eda_app():
 	st.subheader("EDA Section")
-	df = load_data("D:/[TutsNode.com]  -Learn Streamlit Python/07 Module 03 - Project Section - Building Streamlit Apps - Machine Learning Apps/diabetes_prediction_ml_app/data/diabetes_data_upload.csv")
-	df_clean = load_data("D:/[TutsNode.com]  -Learn Streamlit Python/07 Module 03 - Project Section - Building Streamlit Apps - Machine Learning Apps/diabetes_prediction_ml_app/data/diabetes_data_upload_clean.csv")
-	freq_df = load_data("D:/[TutsNode.com]  -Learn Streamlit Python/07 Module 03 - Project Section - Building Streamlit Apps - Machine Learning Apps/diabetes_prediction_ml_app/data/freqdist_of_age_data.csv")
+	df = load_data("C:/Users/Harsh Upadhyay/Desktop/diabetes_prediction_using_streamlit/data/diabetes_data_upload.csv")
+	df_clean = load_data("C:/Users/Harsh Upadhyay/Desktop/diabetes_prediction_using_streamlit/data/diabetes_data_upload_clean.csv")
+	freq_df = load_data("C:/Users/Harsh Upadhyay/Desktop/diabetes_prediction_using_streamlit/data/freqdist_of_age_data.csv")
 
 	submenu = st.sidebar.selectbox("SubMenu",["Descriptive","Plots"])
 	if submenu == "Descriptive":
