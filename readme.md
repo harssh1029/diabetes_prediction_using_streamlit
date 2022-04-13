@@ -1,5 +1,5 @@
 
-Early diabetes prediction app was made using streamlit. 
+Early stage diabetes prediction app was made using streamlit. 
 
 Streamlit is an open-source app framework for Machine Learning and Data Science teams. It helps to showcase graph, results in a beautiful manner .
 
